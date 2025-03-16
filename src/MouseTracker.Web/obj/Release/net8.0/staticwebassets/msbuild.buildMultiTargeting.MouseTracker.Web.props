@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MouseTracker.Web.props" />
+</Project>
