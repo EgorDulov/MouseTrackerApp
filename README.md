@@ -38,21 +38,21 @@ MouseTrackerApp/
    ```bash
    git clone https://github.com/EgorDulov/MouseTrackerApp.git
    cd MouseTrackerApp
-### Настройте базу данных
+2. **Настройте базу данных**
 Обновите строку подключения в src/MouseTracker.Web/appsettings.json:
 "ConnectionStrings": {
   "mouse_tracker": "Server=YourServer;Database=MouseTrackerDB;Trusted_Connection=True;TrustServerCertificate=True;"
 }
 
-Примените миграции:
+3. **Примените миграции:**
 cd src/MouseTracker.Data
 dotnet ef database update -s ../MouseTracker.Web
 
-### Запустите приложение:
+4. **Запустите приложение:**
 cd ../MouseTracker.Web
 dotnet run
 
-### Запустите тесты (опционально):
+5. **Запустите тесты (опционально):**
 cd ../MouseTracker.Tests
 dotnet test
 
