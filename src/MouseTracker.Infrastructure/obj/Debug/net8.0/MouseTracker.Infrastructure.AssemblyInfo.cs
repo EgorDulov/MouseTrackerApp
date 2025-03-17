@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MouseTracker.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4eefaea7004cbc45b14df694443465a3a760481a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a67a9ef7469aabbc6239d88ce867e16621c3d84a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MouseTracker.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MouseTracker.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
