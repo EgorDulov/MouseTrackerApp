@@ -1,19 +1,17 @@
 using Microsoft.AspNetCore.Mvc;
-using MouseTracker.Data.Repositories;
-using MouseTracker.Data.Models;
-using MouseTracker.Web.Models;
+using MouseTracker.Application.UseCases;
+using MouseTracker.Application.DTOs;
 using System.Threading.Tasks;
-using System.Linq;
 
 namespace MouseTracker.Web.Controllers
 {
     public class MouseController : Controller
     {
-        private readonly IMouseMovementRepository _repository;
+        private readonly SaveMouseMovementsUseCase _saveUseCase;
 
-        public MouseController(IMouseMovementRepository repository)
+        public MouseController(SaveMouseMovementsUseCase saveUseCase)
         {
-            _repository = repository;
+            _saveUseCase = saveUseCase;
         }
 
         public IActionResult Index()
@@ -26,14 +24,7 @@ namespace MouseTracker.Web.Controllers
         {
             try
             {
-                var movements = positions.Select(p => new MouseMovement
-                {
-                    XCoordinate = p.X,
-                    YCoordinate = p.Y,
-                    Timestamp = p.T
-                }).ToList();
-
-                await _repository.SaveMouseMovementsAsync(movements);
+                await _saveUseCase.ExecuteAsync(positions);
                 return Ok(new SuccessResponse { Message = "Данные успешно сохранены" });
             }
             catch (Exception ex)

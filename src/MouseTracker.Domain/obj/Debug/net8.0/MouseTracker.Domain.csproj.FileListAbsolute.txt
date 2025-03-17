@@ -1,0 +1,12 @@
+D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Domain\bin\Debug\net8.0\MouseTracker.Domain.deps.json
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Domain\bin\Debug\net8.0\MouseTracker.Domain.dll
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Domain\bin\Debug\net8.0\MouseTracker.Domain.pdb
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Domain\obj\Debug\net8.0\MouseTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Domain\obj\Debug\net8.0\MouseTracker.Domain.AssemblyInfoInputs.cache
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Domain\obj\Debug\net8.0\MouseTracker.Domain.AssemblyInfo.cs
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Domain\obj\Debug\net8.0\MouseTracker.Domain.csproj.CoreCompileInputs.cache
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Domain\obj\Debug\net8.0\MouseTracker.Domain.sourcelink.json
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Domain\obj\Debug\net8.0\MouseTracker.Domain.dll
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Domain\obj\Debug\net8.0\refint\MouseTracker.Domain.dll
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Domain\obj\Debug\net8.0\MouseTracker.Domain.pdb
+D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Domain\obj\Debug\net8.0\ref\MouseTracker.Domain.dll

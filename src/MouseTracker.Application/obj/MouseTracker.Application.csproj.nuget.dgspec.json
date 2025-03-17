@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Application\\MouseTracker.Application.csproj": {}
+  },
+  "projects": {
+    "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Application\\MouseTracker.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Application\\MouseTracker.Application.csproj",
+        "projectName": "MouseTracker.Application",
+        "projectPath": "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Application\\MouseTracker.Application.csproj",
+        "packagesPath": "C:\\Users\\Егор\\.nuget\\packages\\",
+        "outputPath": "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Егор\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Domain\\MouseTracker.Domain.csproj": {
+                "projectPath": "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Domain\\MouseTracker.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Domain\\MouseTracker.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Domain\\MouseTracker.Domain.csproj",
+        "projectName": "MouseTracker.Domain",
+        "projectPath": "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Domain\\MouseTracker.Domain.csproj",
+        "packagesPath": "C:\\Users\\Егор\\.nuget\\packages\\",
+        "outputPath": "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Егор\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

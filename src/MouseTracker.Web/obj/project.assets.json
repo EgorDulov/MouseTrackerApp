@@ -1609,17 +1609,41 @@
           }
         }
       },
-      "MouseTracker.Data/1.0.0": {
+      "MouseTracker.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3"
+          "MouseTracker.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/MouseTracker.Data.dll": {}
+          "bin/placeholder/MouseTracker.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MouseTracker.Data.dll": {}
+          "bin/placeholder/MouseTracker.Application.dll": {}
+        }
+      },
+      "MouseTracker.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MouseTracker.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MouseTracker.Domain.dll": {}
+        }
+      },
+      "MouseTracker.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3",
+          "MouseTracker.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MouseTracker.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MouseTracker.Infrastructure.dll": {}
         }
       }
     }
@@ -4738,17 +4762,29 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "MouseTracker.Data/1.0.0": {
+    "MouseTracker.Application/1.0.0": {
       "type": "project",
-      "path": "../MouseTracker.Data/MouseTracker.Data.csproj",
-      "msbuildProject": "../MouseTracker.Data/MouseTracker.Data.csproj"
+      "path": "../MouseTracker.Application/MouseTracker.Application.csproj",
+      "msbuildProject": "../MouseTracker.Application/MouseTracker.Application.csproj"
+    },
+    "MouseTracker.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MouseTracker.Domain/MouseTracker.Domain.csproj",
+      "msbuildProject": "../MouseTracker.Domain/MouseTracker.Domain.csproj"
+    },
+    "MouseTracker.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../MouseTracker.Infrastructure/MouseTracker.Infrastructure.csproj",
+      "msbuildProject": "../MouseTracker.Infrastructure/MouseTracker.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.3",
-      "MouseTracker.Data >= 1.0.0"
+      "MouseTracker.Application >= 1.0.0",
+      "MouseTracker.Domain >= 1.0.0",
+      "MouseTracker.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4776,8 +4812,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Data\\MouseTracker.Data.csproj": {
-              "projectPath": "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Data\\MouseTracker.Data.csproj"
+            "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Application\\MouseTracker.Application.csproj": {
+              "projectPath": "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Application\\MouseTracker.Application.csproj"
+            },
+            "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Domain\\MouseTracker.Domain.csproj": {
+              "projectPath": "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Domain\\MouseTracker.Domain.csproj"
+            },
+            "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Infrastructure\\MouseTracker.Infrastructure.csproj": {
+              "projectPath": "D:\\MouseTracker\\MouseTrackerApp\\src\\MouseTracker.Infrastructure\\MouseTracker.Infrastructure.csproj"
             }
           }
         }

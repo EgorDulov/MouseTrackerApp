@@ -1,0 +1,16 @@
+D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\bin\Debug\net8.0\MouseTracker.Infrastructure.deps.json
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\bin\Debug\net8.0\MouseTracker.Infrastructure.dll
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\bin\Debug\net8.0\MouseTracker.Infrastructure.pdb
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\bin\Debug\net8.0\MouseTracker.Domain.dll
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\bin\Debug\net8.0\MouseTracker.Domain.pdb
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\obj\Debug\net8.0\MouseTracker.Infrastructure.csproj.AssemblyReference.cache
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\obj\Debug\net8.0\MouseTracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\obj\Debug\net8.0\MouseTracker.Infrastructure.AssemblyInfoInputs.cache
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\obj\Debug\net8.0\MouseTracker.Infrastructure.AssemblyInfo.cs
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\obj\Debug\net8.0\MouseTracker.Infrastructure.csproj.CoreCompileInputs.cache
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\obj\Debug\net8.0\MouseTracker.Infrastructure.sourcelink.json
+D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\obj\Debug\net8.0\MouseTra.49D76957.Up2Date
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\obj\Debug\net8.0\MouseTracker.Infrastructure.dll
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\obj\Debug\net8.0\refint\MouseTracker.Infrastructure.dll
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\obj\Debug\net8.0\MouseTracker.Infrastructure.pdb
+D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Infrastructure\obj\Debug\net8.0\ref\MouseTracker.Infrastructure.dll

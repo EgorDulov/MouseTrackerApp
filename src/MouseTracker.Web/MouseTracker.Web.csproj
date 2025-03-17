@@ -1,7 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <ItemGroup>
-    <ProjectReference Include="..\MouseTracker.Data\MouseTracker.Data.csproj" />
+    <ProjectReference Include="..\MouseTracker.Application\MouseTracker.Application.csproj" />
+    <ProjectReference Include="..\MouseTracker.Infrastructure\MouseTracker.Infrastructure.csproj" />
+    <ProjectReference Include="..\MouseTracker.Domain\MouseTracker.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

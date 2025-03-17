@@ -10,7 +10,9 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.3",
-          "MouseTracker.Data": "1.0.0"
+          "MouseTracker.Application": "1.0.0",
+          "MouseTracker.Domain": "1.0.0",
+          "MouseTracker.Infrastructure": "1.0.0"
         },
         "runtime": {
           "MouseTracker.Web.dll": {}
@@ -1038,12 +1040,32 @@
           }
         }
       },
-      "MouseTracker.Data/1.0.0": {
+      "MouseTracker.Application/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3"
+          "MouseTracker.Domain": "1.0.0"
         },
         "runtime": {
-          "MouseTracker.Data.dll": {
+          "MouseTracker.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MouseTracker.Domain/1.0.0": {
+        "runtime": {
+          "MouseTracker.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MouseTracker.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3",
+          "MouseTracker.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MouseTracker.Infrastructure.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1610,7 +1632,17 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
-    "MouseTracker.Data/1.0.0": {
+    "MouseTracker.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MouseTracker.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MouseTracker.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

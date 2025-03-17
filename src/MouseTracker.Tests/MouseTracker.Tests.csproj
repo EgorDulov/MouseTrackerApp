@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MouseTracker.Web\MouseTracker.Web.csproj" />
+    <ProjectReference Include="..\MouseTracker.Application\MouseTracker.Application.csproj" />
   </ItemGroup>
 
 </Project>

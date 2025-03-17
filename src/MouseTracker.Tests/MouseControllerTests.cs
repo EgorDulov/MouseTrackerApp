@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using MouseTracker.Data.Repositories;
 using MouseTracker.Web.Controllers;
-using MouseTracker.Web.Models;
+using MouseTracker.Application.UseCases;
+using MouseTracker.Application.DTOs;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xunit;
@@ -15,10 +15,10 @@ namespace MouseTracker.Tests
         public async Task SendMousePositions_SavesData_ReturnsOk()
         {
             // Arrange
-            var mockRepo = new Mock<IMouseMovementRepository>();
-            mockRepo.Setup(r => r.SaveMouseMovementsAsync(It.IsAny<IEnumerable<MouseTracker.Data.Models.MouseMovement>>()))
+            var mockUseCase = new Mock<SaveMouseMovementsUseCase>(MockBehavior.Strict);
+            mockUseCase.Setup(u => u.ExecuteAsync(It.IsAny<IEnumerable<MousePositionDTO>>()))
                 .Returns(Task.CompletedTask);
-            var controller = new MouseController(mockRepo.Object);
+            var controller = new MouseController(mockUseCase.Object);
             var positions = new List<MousePositionDTO>
             {
                 new MousePositionDTO { X = 10, Y = 20, T = DateTime.UtcNow }
@@ -31,7 +31,7 @@ namespace MouseTracker.Tests
             var okResult = Assert.IsType<OkObjectResult>(result);
             var returnValue = Assert.IsType<SuccessResponse>(okResult.Value);
             Assert.Equal("Данные успешно сохранены", returnValue.Message);
-            mockRepo.Verify(r => r.SaveMouseMovementsAsync(It.IsAny<IEnumerable<MouseTracker.Data.Models.MouseMovement>>()), Times.Once());
+            mockUseCase.Verify(u => u.ExecuteAsync(It.IsAny<IEnumerable<MousePositionDTO>>()), Times.Once());
         }
     }
 }

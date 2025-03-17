@@ -149,10 +149,8 @@ D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\bin\Debug\net8.0\runtimes
 D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\bin\Debug\net8.0\MouseTracker.Data.dll
 D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\bin\Debug\net8.0\MouseTracker.Web.dll
 D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\bin\Debug\net8.0\MouseTracker.Web.pdb
-D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\bin\Debug\net8.0\MouseTracker.Data.pdb
 D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\obj\Debug\net8.0\MouseTracker.Tests.csproj.AssemblyReference.cache
 D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\obj\Debug\net8.0\MouseTracker.Tests.GeneratedMSBuildEditorConfig.editorconfig
 D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\obj\Debug\net8.0\MouseTracker.Tests.AssemblyInfoInputs.cache
@@ -164,3 +162,10 @@ D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\obj\Debug\net8.0\refint\M
 D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\obj\Debug\net8.0\MouseTracker.Tests.pdb
 D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\obj\Debug\net8.0\MouseTracker.Tests.genruntimeconfig.cache
 D:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\obj\Debug\net8.0\ref\MouseTracker.Tests.dll
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\bin\Debug\net8.0\MouseTracker.Application.dll
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\bin\Debug\net8.0\MouseTracker.Domain.dll
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\bin\Debug\net8.0\MouseTracker.Infrastructure.dll
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\bin\Debug\net8.0\MouseTracker.Application.pdb
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\bin\Debug\net8.0\MouseTracker.Domain.pdb
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\bin\Debug\net8.0\MouseTracker.Infrastructure.pdb
+d:\MouseTracker\MouseTrackerApp\src\MouseTracker.Tests\obj\Debug\net8.0\MouseTracker.Tests.sourcelink.json
